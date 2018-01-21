@@ -1,0 +1,96 @@
+#logo {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  padding-top: 18px;
+}
+
+ul, p, h1, h2, h3, h4, figcaption {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+body {
+  margin: 15px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+.info {
+
+  float: right;
+  text-align: right;
+  display: inline-block;
+  height:50px;
+}
+.workName{
+
+  font-size: 150%;
+  font-weight:bold;
+  margin-top: 5px;
+}
+hr {
+  display: block;
+  position: relative;
+  top:-5px;
+  width: 100%;
+  height: 2px;
+  border: 0;
+  border-top: 3px solid #7d97ad;
+  margin: 1.1em 0;
+}
+.position {
+  position: relative;
+  top:-20px;
+  font: caption;
+  font-size: 12px;
+}
+
+.center {
+  width: 100%;
+}
+.FeatureSections{
+  height: 20%;
+  align-content: center;
+}
+.FeatureTitle{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #7d97ad;
+}
+.featImg{
+  width: 100%;
+  height: 100%;
+}
+.first, .sec, .third {
+  width: 32%;
+  max-height: 100px;
+  text-align: center;
+  float: left;
+  margin-bottom: 0;
+}
+section{
+  height: 100%;
+}
+.first{
+  padding-right: 2%;
+}
+.third {
+  padding-left: 2%;
+}
+.link{
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  position: relative;
+  top: -25px;
+}
