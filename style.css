@@ -1,3 +1,31 @@
+
+@media screen and (min-width: 660px )
+{
+  .first, .sec, .third {
+
+    float: left;
+    background-color: pink;
+
+    width: 32%;
+    max-height: 100%;
+  }
+
+  .feature-img {
+      width: 50px;
+  }
+
+  .third {
+    padding-left: 2%;
+  }
+}
+
+@media screen and (max-width:659px)
+{
+.first, .sec, .third {
+    width: 100%;
+  }
+}
+
 .logo {
   height: 60px;
   width: 60px;
@@ -64,7 +92,7 @@ hr {
 }
 
 .feature-sections{
-  height: 20%;
+  height: 400px;
   align-content: center;
 }
 
@@ -77,25 +105,25 @@ hr {
 }
 
 .feat-img{
-  width: 100%;
-  height: 100%;
+
+  width: 100%;;
+  max-height: 200px;
+
 }
 
 .first, .sec, .third {
-  width: 32%;
-  max-height: 100px;
+
+  max-height: 50%;
   text-align: center;
-  float: left;
-  margin-bottom: 0;
+
+  margin-bottom: 80px;
 }
 
 .first{
   padding-right: 2%;
 }
 
-.third {
-  padding-left: 2%;
-}
+
 
 .link{
   text-transform: lowercase;
